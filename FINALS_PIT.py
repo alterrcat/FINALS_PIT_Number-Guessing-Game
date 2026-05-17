@@ -14,7 +14,7 @@ def check_guess():
 
         if guess > 10 or guess < 1:
             result_label.config(
-                text="1 to 10 ngani",
+                text="Juiceko, 1 to 10 ngani",
                 fg="#FFD166"
             )
             entry.delete(0, END)
