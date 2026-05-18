@@ -129,6 +129,19 @@ restart_button = Button(
 )
 restart_button.pack(pady=6)
 
+exit_button = Button(
+    main_frame,
+    text="Exit",
+    font=("Verdana", 10, "bold"),
+    bg="#E63946",
+    fg="white",
+    width=14,
+    relief=FLAT,
+    cursor="hand2",
+    command=root.destroy
+)
+exit_button.pack(pady=6)
+
 result_label = Label(
     main_frame,
     text="",
